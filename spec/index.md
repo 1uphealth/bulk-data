@@ -15,7 +15,7 @@ These specifications are designed to support sharing any data that can be repres
 * EHR systems and population health tools implementing FHIR as an interoperability layer
 * Financial systems implementing FHIR as an interoperability layer
 
-#### Common Clinical Data Set
+### Common Clinical Data Set
 *Applies to: EHR systems that support the Common Clinical Data Set (or, looking ahead, the US Core Data for Interoperability).*
 
 This use case exports all resources needed for the Common Clinical Data Set, as profiled by Argonaut. For a full list of these resources and profiles, see http://www.fhir.org/guides/argonaut/r2/profiles.html.
