@@ -20,7 +20,7 @@ The scope of this document does NOT include:
 
 * Newline-delimited JSON.  [http://ndjson.org](http://ndjson.org)
 * The OAuth 2.0 Authorization Framework, RFC6749, [https://tools.ietf.org/html/rfc6749](https://tools.ietf.org/html/rfc6749)
-* HL7 FHIR Release 4, [https://www.hl7.org/fhir/](https://www.hl7.org/fhir/)
+* HL7 FHIR Release 4, [https://www.hl7.org/fhir/stu3](https://www.hl7.org/fhir/stu3)
 * The JavaScript Object Notation (JSON) Data Interchange Format, RFC7159.  [https://tools.ietf.org/html/rfc7159](https://tools.ietf.org/html/rfc7159)
 * Transport Layer Security (TLS) Protocol Version 1.2.  RFC5246).  [https://tools.ietf.org/html/rfc5246](https://tools.ietf.org/html/rfc5246)
 * The OAuth 2.0 Authorization Framework: Bearer Token Usage, RFC6750.  [https://tools.ietf.org/html/rfc6750](https://tools.ietf.org/html/rfc6750)
@@ -34,7 +34,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 All exchanges described herein between a client and a server MUST be secured using [Transport Layer Security (TLS) Protocol Version 1.2 (RFC5246)](https://tools.ietf.org/html/rfc5246).  Use of mutual TLS is OPTIONAL.  
 
-With each of the requests described herein, the client MUST provide proof of authorization.  Implementers are encouraged to implement OAuth 2.0 access management in accordance with the [SMART Backend Services: Authorization Guide](http://hl7.org/fhir/us/bulkdata/2019May/authorization/index.html).  Implementations MAY include non-RESTful services that use authorization schemes other than OAuth 2.0, such as mutual-TLS or signed URLs.     
+With each of the requests described herein implementers are encouraged to implement OAuth 2.0 access management in accordance with the [SMART Backend Services: Authorization Guide](https://github.com/smart-on-fhir/fhir-bulk-data-docs/blob/master/authorization.md).  Implementations MAY include non-RESTful services that use authorization schemes other than OAuth 2.0, such as mutual-TLS or signed URLs.     
 
 This specification does not address protection of the servers themselves from potential compromise.  An adversary who successfully captures administrative rights to a server will have full control over that server and can use those rights to undermine the server's security protections.
 
