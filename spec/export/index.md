@@ -92,7 +92,6 @@ Export data from a FHIR server whether or not it is associated with a patient. T
 
   Resources updated after this period will be included in the response
 
-  Note: This parameter was named ```start``` in an earlier version of this proposal
 
 - ```_type``` (string of comma-delimited FHIR resource types, optional)
 
