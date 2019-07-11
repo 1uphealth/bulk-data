@@ -1,5 +1,6 @@
-#pip3 install python-jose
-####Input
+# pip3 install python-jose
+
+#### Input
 ```python
 import json
 import jose.jwk
@@ -22,7 +23,7 @@ jwt_claims = {
 ```
 
 # Encoded JWT with RS384 Signature
-####Input
+#### Input
 
 ```python
 rsa_signing_jwk = get_signing_key("RS384.private.json")
@@ -40,7 +41,7 @@ jose.jwt.encode(
 
 
 # Encoded JWT with ES384 Signature
-####Input
+#### Input
 ```python
 ec_signing_jwk  = get_signing_key("ES384.private.json")
 jose.jwt.encode(
